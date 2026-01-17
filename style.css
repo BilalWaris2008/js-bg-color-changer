@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-card {
+    text-align: center;
+    border: 1px solid;
+    padding: 18px;
+    width: 16rem;
+    border-radius: 8px;
+    background: 4px transparent;
+    box-shadow: 0 0 14px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 540;
+    color: black;
+}
+
+button {
+    width: 75%;
+    margin-top: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(#9b6ff4, #653af1);
+    box-shadow: 0 3px 3px 2px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: .5s;
+}
